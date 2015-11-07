@@ -2,6 +2,35 @@
 <html>
 	<head></head>
 	<body>
+	<style>
+	table {
+		border-spacing: 0px;
+	}
+	td {
+		border:1px solid #444;
+		height:80px;
+		vertical-align: center;
+		text-align: center;
+	}
+</style>
+<h1>Hello World</h1>
+<table style="width:300px">
+	<tr>
+		<td>A1</td>
+		<td>A2</td>
+		<td>A3</td>
+	</tr>
+	<tr>
+		<td>B1</td>
+		<td>B2</td>
+		<td>B3</td>
+	</tr>
+	<tr>
+		<td>C1</td>
+		<td>C2</td>
+		<td>C3</td>
+	</tr>
+</table>
 		<h1>Hello World</h1>
 		<script>
 			var boardArray = [["1a", "1b", "1c"], ["2a", "2b", "2c"], ["3a", "3b", "3c"]];
@@ -10,7 +39,7 @@
 			var o;
 
 			function assignSquare(x){
-			// 
+			//
 			}
 
 			function placeX(){
@@ -25,7 +54,7 @@
 				if(count % 2 == 0){
 					placeX();
 					count++;
-					
+
 				} else {
 					placeO();
 					count++;
